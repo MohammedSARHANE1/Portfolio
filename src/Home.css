@@ -1,0 +1,25 @@
+
+.Home {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  width: 100vw;
+  grid-template-rows: 50px 800px auto auto 1fr;
+ 
+}
+
+#Card{
+  display:grid;
+  transition: transform 0.3s ease-in-out;
+}
+#Card:hover{
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+#errors{
+  color: red;
+}
+span{
+  color: red;
+}
